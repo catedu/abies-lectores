@@ -1,8 +1,5 @@
 # Introduction
 
-
-# Introducción
-
 **<img src="img/abies_web_md.jpg" width="423" height="97" />**
 
 ****
