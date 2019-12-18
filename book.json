@@ -1,31 +1,46 @@
 {
-    "plugins": ["youtube", "accordion", "styled-blockquotes", "localized-footer", "edit-link", "githubcontributors", "image-captions"],
-    "language": "es",
-    "variables": {
-        "title": "Abiesweb para Usuarios Lectores",
-        "authors": [
-            "Cristina Martín Bruna",
-            "___________"
-        ],
-        "collaborators": [
-            { "name": "_________", "edited": "_____________" }
-        ]
+  "plugins": [
+    "youtube",
+    "accordion",
+    "styled-blockquotes",
+    "localized-footer",
+    "edit-link",
+    "githubcontributors",
+    "image-captions",
+    "ga"
+  ],
+  "language": "es",
+  "variables": {
+    "title": "Abiesweb para Usuarios Lectores",
+    "authors": [
+      "Cristina Martín Bruna",
+      "___________"
+    ],
+    "collaborators": [
+      {
+        "name": "_________",
+        "edited": "_____________"
+      }
+    ]
+  },
+  "pluginsConfig": {
+    "localized-footer": {
+      "hline": true,
+      "filename": "./FOOTER.md"
     },
-    "pluginsConfig": {
-        "localized-footer": {
-            "hline": true,
-            "filename": "./FOOTER.md"
-        },
-        "image-captions": {
-            "caption": "Imagen - _CAPTION_"
-        },
-        "edit-link": {
-            "base": "https://github.com/catedu/abies-lectores/edit/master",
-            "label": "Edita esta página"
-        },
-        "githubcontributors": {
-            "githubOwner": "catedu",
-            "githubRepository": "abies-lectores"
-        }
+    "image-captions": {
+      "caption": "Imagen - _CAPTION_"
+    },
+    "edit-link": {
+      "base": "https://github.com/catedu/abies-lectores/edit/master",
+      "label": "Edita esta página"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "abies-lectores"
+    },
+    "ga": {
+      "token": "UA-135691041-2"
     }
+  }
 }
